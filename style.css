@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quantico", serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    background: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 20px 0 21px 0;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: #FF9C28;
+}
+
+#icons {
+    margin-left: -30px;
+}
+
+input {
+    background: #404864;
+    padding: 5px 35px;
+    border: none;
+}
+
+select {
+    padding: 5px 35px;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.hero {
+    background-image: url("./img/Bg\ \(1\).png");
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero2 {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.ota-rasm {
+    display: flex;
+    align-items: center;
+}
+
+.hero3 {
+    background: #1B1E27;
+    color: white;
+    
+}
+
+.ota {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding-bottom: 100px;
+}
+
+.ota img {
+    margin-top: 30px;
+    margin-left:  230px;
+}
+.h3{
+    padding: 30px 245px;
+}
+.ota6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ota9{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.foo{
+    background: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+          color: white;
+}
+.foo h2:hover{
+     color: #FF9C28;
+}
